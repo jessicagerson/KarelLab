@@ -1,3 +1,19 @@
 #BlueJ class context
 comment0.target=Problem3
-numComments=1
+comment1.params=
+comment1.target=void\ topRow()
+comment2.params=
+comment2.target=void\ secondRow()
+comment3.params=
+comment3.target=void\ middleRow()
+comment4.params=
+comment4.target=void\ lastRow()
+comment5.params=
+comment5.target=void\ move3()
+comment6.params=
+comment6.target=void\ move4()
+comment7.params=
+comment7.target=void\ move2()
+comment8.params=
+comment8.target=void\ putBeeperMoveX3()
+numComments=9

@@ -18,6 +18,13 @@ public class Problem3Driver implements Directions
         Problem3 harry = new Problem3(5, 2, East, 14);
         Problem3 marry = new Problem3(6, 2, East, 14);
         Problem3 jerry = new Problem3(7, 2, East, 14);
+        
+        jerry.topRow();
+        marry.secondRow();
+        harry.middleRow();
+        larry.secondRow();
+        karel.lastRow();
+        
         karel.turnOff();
         larry.turnOff();
         harry.turnOff();
@@ -27,11 +34,11 @@ public class Problem3Driver implements Directions
 
     static {
         World.reset(); 
-        World.readWorld("fig3-8.kwld"); 
+        World.readWorld("worlds/hello.kwld"); 
         World.setBeeperColor(Color.magenta);
         World.setStreetColor(Color.blue);
         World.setNeutroniumColor(Color.green.darker());
-        World.setDelay(10);  
+        World.setDelay(5);  
         World.setVisible(true);
     }
 }
