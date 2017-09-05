@@ -15,7 +15,27 @@ public class Problem1 extends Robot
     }
 
     public void checkSurrounded(){
-        
+        //initially facing  north
+        if (!frontIsClear()){
+            turnLeft();
+            //facing west
+            if (!frontIsClear()){
+                turnLeft();
+                //facing south
+            
+                if (!frontIsClear()){
+                    turnLeft();
+                    //facing east
+                    if (!frontIsClear()){
+                        turnOff();
+                    }
+                }
+         
+         else{
+             //
+            }   
+            }
     }
+}
 }
 
