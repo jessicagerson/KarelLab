@@ -2,4 +2,12 @@
 comment0.target=Problem3
 comment1.params=
 comment1.target=void\ carpetRooms()
-numComments=2
+comment2.params=
+comment2.target=void\ carpetTime()
+comment3.params=
+comment3.target=boolean\ leftIsClear()
+comment4.params=
+comment4.target=boolean\ rightIsClear()
+comment5.params=
+comment5.target=boolean\ topIsClear()
+numComments=6
